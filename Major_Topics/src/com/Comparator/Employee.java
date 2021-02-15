@@ -1,0 +1,35 @@
+package com.Comparator;
+
+public class Employee {
+	private Integer id;
+	private String name;
+	public Integer age;
+	private Double salary;
+
+	Employee(Integer id, Integer age, String name, Double salary) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public Double getSalary() {
+		return salary;
+	}
+	public String toString() {
+		return "Name : "+name+", Age : " +age +", ID : "+id+", Salary : "+salary;
+	}
+
+}

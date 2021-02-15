@@ -1,0 +1,4 @@
+#Tue Nov 10 20:01:16 EST 2020
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=switch case

@@ -1,0 +1,23 @@
+package com.Comparator;
+
+import java.util.Comparator;
+
+public class EmployeeSort implements Comparator<Employee>{
+
+//	@Override
+//	public int compare(Employee e1, Employee e2) {
+//		 
+//		return e1.getId().compareTo(e2.getId());
+//	}
+	public int compar2(Employee e1, Employee e2) {
+		return e1.getId().compareTo(e2.getAge());
+		
+	}
+
+	@Override
+	public int compare(Employee o1, Employee o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

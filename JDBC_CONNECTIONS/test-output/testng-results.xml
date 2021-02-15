@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DB Connectivity" duration-ms="778" started-at="2021-01-31T17:49:17 EST" finished-at="2021-01-31T17:49:18 EST">
+    <groups>
+      <group name="Orders">
+        <method signature="ConnectionMySQL.order_Items_Table()[pri:2, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="order_Items_Table" class="com.JDBC.ConnectionMySQL"/>
+      </group> <!-- Orders -->
+      <group name="Products">
+        <method signature="ConnectionMySQL.products_Table()[pri:3, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="products_Table" class="com.JDBC.ConnectionMySQL"/>
+      </group> <!-- Products -->
+      <group name="Customers">
+        <method signature="ConnectionMySQL.customers_Table()[pri:1, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="customers_Table" class="com.JDBC.ConnectionMySQL"/>
+      </group> <!-- Customers -->
+      <group name="Shipper">
+        <method signature="ConnectionMySQL.shipper_Table()[pri:4, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="shipper_Table" class="com.JDBC.ConnectionMySQL"/>
+      </group> <!-- Shipper -->
+    </groups>
+    <test name="Specific table data testing" duration-ms="778" started-at="2021-01-31T17:49:17 EST" finished-at="2021-01-31T17:49:18 EST">
+      <class name="com.JDBC.ConnectionMySQL">
+        <test-method status="PASS" signature="customers_Table()[pri:1, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="customers_Table" duration-ms="571" started-at="2021-01-31T17:49:17 EST" finished-at="2021-01-31T17:49:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customers_Table -->
+        <test-method status="PASS" signature="order_Items_Table()[pri:2, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="order_Items_Table" duration-ms="50" started-at="2021-01-31T17:49:18 EST" finished-at="2021-01-31T17:49:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_Items_Table -->
+        <test-method status="PASS" signature="products_Table()[pri:3, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="products_Table" duration-ms="55" started-at="2021-01-31T17:49:18 EST" finished-at="2021-01-31T17:49:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- products_Table -->
+        <test-method status="PASS" signature="shipper_Table()[pri:4, instance:com.JDBC.ConnectionMySQL@4d95d2a2]" name="shipper_Table" duration-ms="42" started-at="2021-01-31T17:49:18 EST" finished-at="2021-01-31T17:49:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipper_Table -->
+      </class> <!-- com.JDBC.ConnectionMySQL -->
+    </test> <!-- Specific table data testing -->
+  </suite> <!-- DB Connectivity -->
+</testng-results>

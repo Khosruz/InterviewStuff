@@ -1,0 +1,45 @@
+package com.Comparator;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class EmployeeDetails extends Employee {
+
+	public EmployeeDetails( String name,Integer id, Integer age, Double salary) {
+		super(id, age, name, salary);
+	}
+
+	public static void main(String[] args) {
+		List<EmployeeDetails> employee = new ArrayList<EmployeeDetails>();
+		System.out.println("Before Sorting=========================================");
+		employee.add(new EmployeeDetails(" Zaman", 125, 3214, 89574.321));
+		employee.add(new EmployeeDetails(" Afnan",  456, 9787, 54781.000));
+		employee.add(new EmployeeDetails(" Miraj",  789, 4789, 25645.147));
+		employee.add(new EmployeeDetails("  Imam",   321, 6587, 56412.852));
+		employee.add(new EmployeeDetails(" Imran",  654, 4512, 69874.369));
+		employee.add(new EmployeeDetails(" Ahmed",  987, 3654, 54789.852));
+		employee.add(new EmployeeDetails(" Anser",  147, 4563, 98745.147));
+		employee.add(new EmployeeDetails(" Billu",  852, 7896, 77742.852));
+		employee.add(new EmployeeDetails(" Boltu",369, 1245, 87545.258));
+		employee.add(new EmployeeDetails(" Sento", 985, 1234, 47425.789));
+		employee.forEach(System.out::println);
+		Collections.sort(employee, new EmployeeSort());
+		System.out.println("\nAfter Sorting========================================");
+		employee.forEach(System.out::println);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
